@@ -1,0 +1,90 @@
+/* ------- Styles ------- */
+body {
+  margin: 0;
+  background-color:#ffffff;
+}
+header {
+	height: 140px;
+	background-color: #153243;
+}
+.logo {
+  font-family: 'Times New Roman', serif;
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+header h2 {
+	font-family: 'Times New Roman', serif;
+	color: #ffffff;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+footer {
+	background-color: #153243;
+}
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', sans-serif;
+	color: #113d57;
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+ font-family: 'Times New Roman', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+  font-size: 18px	
+}
+a:link { color: rgb(0, 60, 255); }
+a:visited { color: rgb(0, 60, 255); }
+a:hover { color: #ff0000; }
+a:active { color: #ff0000; }
+a:hover {
+	text-decoration: underline;	
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: #ffffff;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+
+
+/* -------  Elements ------- */
+img{ 
+  width: 100%;	
+  border-radius: 8px;
+  border: 3px solid #284B63;
+} 
+
+.border-top {
+  padding-top: 25px;
+  border-top: 2px solid #284B63;
+}
+
